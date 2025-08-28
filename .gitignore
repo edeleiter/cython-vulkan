@@ -1,0 +1,83 @@
+# Python
+*.py[cod]
+__pycache__/
+*.pyc
+*.pyo
+
+
+# Cython
+*.c
+build/
+dist/
+*.so
+
+
+# Virtual Environment
+venv/
+env/
+.virtualenv/
+
+
+# IDEs and editors
+.idea/
+.vscode/
+.vscode-server/
+*.sublime-workspace
+*.sublime-project
+
+
+# Testing and Coverage Reports
+htmlcov/
+coverage.xml
+.coverage*
+test-*
+.tox/
+.nox/
+
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+*.egg-info
+
+
+# Installed Packages
+site/
+*.egg
+
+
+# Linting and Formatting
+.mypy_cache/
+*.py[il]~
+*.py[lo]
+.vscode/**/*
+
+# Build files
+setup.cfg
+setup.py*
+.vscode/settings.json
+
+# generated files
+build/
+vulkan.cpp
+glfw.cpp
+
+# uv
+# uv virtual environment
+.venv/
+
+# Python build artifacts and temporary files
+__pycache__/
+*.pyc
+*.pyd
+*.egg-info/
+.Python
+build/
+dist/
+
+# uv lock file (if you choose to ignore it, though often committed)
+# uv.lock
+
+# Operating System and Editor specific files
+.DS_Store
+.vscode/
